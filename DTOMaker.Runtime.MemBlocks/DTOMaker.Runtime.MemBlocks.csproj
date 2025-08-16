@@ -30,6 +30,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="DataFac.Memory" Version="0.14.4" />
+		<PackageReference Include="DataFac.Storage" Version="1.0.3" />
 		<PackageReference Include="Microsoft.Bcl.HashCode" Version="6.0.0" />
 		<PackageReference Include="Nerdbank.GitVersioning" Version="3.7.115">
 			<PrivateAssets>all</PrivateAssets>
@@ -40,7 +41,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DataFac.Storage\DataFac.Storage.csproj" />
 	  <ProjectReference Include="..\DTOMaker.Runtime\DTOMaker.Runtime.csproj" />
 	</ItemGroup>
 
