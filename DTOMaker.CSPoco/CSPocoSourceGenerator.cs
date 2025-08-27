@@ -1,9 +1,10 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
+using DTOMaker.SrcGen.CSPoco;
 using Microsoft.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 
-namespace DTOMaker.CSPoco
+namespace DTOMaker.SrcGen.CSPoco
 {
     [Generator(LanguageNames.CSharp)]
     public class CSPocoSourceGenerator : SourceGeneratorBase

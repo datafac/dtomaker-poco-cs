@@ -1,6 +1,7 @@
 ﻿using DataFac.Memory;
 using DataFac.Storage;
 using DTOMaker.Runtime.MemBlocks;
+using DTOMaker.SrcGen.MemBlocks;
 using Shouldly;
 using System;
 using Xunit;
@@ -12,7 +13,7 @@ namespace DTOMaker.MemBlocks.Tests
         [Fact]
         public void CheckBlobIdSize()
         {
-            BlobIdV1.Size.ShouldBe(Constants.BlobIdV1Size);
+            BlobIdV1.Size.ShouldBe(SrcGen.MemBlocks.Constants.BlobIdV1Size);
         }
 
         [Fact]

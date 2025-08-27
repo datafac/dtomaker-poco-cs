@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace DTOMaker.Gentime.Json
+namespace DTOMaker.SrcGen.Core.Json
 {
     public sealed class JsonMember
     {

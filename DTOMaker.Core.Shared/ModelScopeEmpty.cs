@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
     public sealed class ModelScopeEmpty : IModelScope
     {

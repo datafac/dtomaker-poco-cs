@@ -1,7 +1,7 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 
-namespace DTOMaker.CSPoco
+namespace DTOMaker.SrcGen.CSPoco
 {
     internal class CSPocoFactory : ITargetFactory
     {

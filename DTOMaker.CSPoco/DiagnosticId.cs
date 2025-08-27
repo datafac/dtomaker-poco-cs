@@ -1,4 +1,4 @@
-﻿namespace DTOMaker.CSPoco
+﻿namespace DTOMaker.SrcGen.CSPoco
 {
     internal static class DiagnosticId
     {

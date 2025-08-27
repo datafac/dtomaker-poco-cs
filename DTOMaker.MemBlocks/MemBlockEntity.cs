@@ -1,9 +1,9 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DTOMaker.MemBlocks
+namespace DTOMaker.SrcGen.MemBlocks
 {
     internal sealed class MemBlockEntity : TargetEntity
     {

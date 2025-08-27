@@ -1,9 +1,9 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Collections.Immutable;
 using System.Linq;
 
-namespace DTOMaker.MessagePack
+namespace DTOMaker.SrcGen.MessagePack
 {
     public readonly struct MemberKeyOffsetAttribute { }
 

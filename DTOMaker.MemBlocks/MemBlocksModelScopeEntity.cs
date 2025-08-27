@@ -1,7 +1,7 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using System;
 
-namespace DTOMaker.MemBlocks
+namespace DTOMaker.SrcGen.MemBlocks
 {
     internal sealed class MemBlocksModelScopeEntity : ModelScopeEntity
     {

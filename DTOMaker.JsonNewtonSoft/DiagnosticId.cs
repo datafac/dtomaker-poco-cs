@@ -1,4 +1,4 @@
-﻿namespace DTOMaker.JsonNewtonSoft
+﻿namespace DTOMaker.SrcGen.JsonNewtonSoft
 {
     internal static class DiagnosticId
     {

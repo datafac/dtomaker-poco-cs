@@ -19,8 +19,8 @@ namespace DTOMaker.CSPoco.Tests
         [Fact]
         public void SrcGenVersionChecks()
         {
-            Version coreVersion = typeof(DTOMaker.Gentime.SourceGeneratorBase).Assembly.GetName().Version ?? new Version(99, 99, 9999);
-            Version thisVersion = typeof(DTOMaker.CSPoco.CSPocoSourceGenerator).Assembly.GetName().Version ?? new Version(0, 0, 0);
+            Version coreVersion = typeof(DTOMaker.SrcGen.Core.SourceGeneratorBase).Assembly.GetName().Version ?? new Version(99, 99, 9999);
+            Version thisVersion = typeof(DTOMaker.SrcGen.CSPoco.CSPocoSourceGenerator).Assembly.GetName().Version ?? new Version(0, 0, 0);
 
             thisVersion.Major.ShouldBe(coreVersion.Major);
             thisVersion.Minor.ShouldBeGreaterThanOrEqualTo(coreVersion.Minor);

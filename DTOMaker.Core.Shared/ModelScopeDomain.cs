@@ -1,4 +1,4 @@
-﻿namespace DTOMaker.Gentime
+﻿namespace DTOMaker.SrcGen.Core
 {
     public abstract class ModelScopeDomain : ModelScopeBase
     {

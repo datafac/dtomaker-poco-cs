@@ -1,7 +1,7 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 
-namespace DTOMaker.MessagePack
+namespace DTOMaker.SrcGen.MessagePack
 {
     internal sealed class MessagePackEntity : TargetEntity
     {

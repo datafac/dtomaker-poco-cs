@@ -20,8 +20,8 @@ namespace DTOMaker.MemBlocks.Tests
         [Fact]
         public void SrcGenVersionChecks()
         {
-            Version coreVersion = typeof(DTOMaker.Gentime.SourceGeneratorBase).Assembly.GetName().Version ?? new Version(99, 99, 9999);
-            Version thisVersion = typeof(DTOMaker.MemBlocks.MemBlocksSourceGenerator).Assembly.GetName().Version ?? new Version(0, 0, 0);
+            Version coreVersion = typeof(DTOMaker.SrcGen.Core.SourceGeneratorBase).Assembly.GetName().Version ?? new Version(99, 99, 9999);
+            Version thisVersion = typeof(DTOMaker.SrcGen.MemBlocks.MemBlocksSourceGenerator).Assembly.GetName().Version ?? new Version(0, 0, 0);
 
             thisVersion.Major.ShouldBe(coreVersion.Major);
             thisVersion.Minor.ShouldBeGreaterThanOrEqualTo(coreVersion.Minor);

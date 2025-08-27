@@ -1,4 +1,4 @@
-﻿namespace DTOMaker.MemBlocks
+﻿namespace DTOMaker.SrcGen.MemBlocks
 {
     public enum LayoutMethod : int
     {

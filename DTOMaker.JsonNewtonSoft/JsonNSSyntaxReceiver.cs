@@ -1,8 +1,8 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Collections.Immutable;
 
-namespace DTOMaker.JsonNewtonSoft
+namespace DTOMaker.SrcGen.JsonNewtonSoft
 {
     internal class JsonNSSyntaxReceiver : SyntaxReceiverBase
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Linq;
-using DTOMaker.Gentime;
-namespace DTOMaker.MemBlocks;
+using DTOMaker.SrcGen.Core;
+namespace DTOMaker.SrcGen.MemBlocks;
 #pragma warning disable CS0162 // Unreachable code detected
 public sealed class EntityGenerator : EntityGeneratorBase
 {

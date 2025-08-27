@@ -1,6 +1,6 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 
-namespace DTOMaker.JsonNewtonSoft
+namespace DTOMaker.SrcGen.JsonNewtonSoft
 {
     public sealed class JsonNSScopeFactory : IScopeFactory
     {

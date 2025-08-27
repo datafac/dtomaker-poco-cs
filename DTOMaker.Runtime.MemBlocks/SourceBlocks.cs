@@ -39,7 +39,7 @@ namespace DTOMaker.Runtime.MemBlocks
             {
                 bits = bits >> 4;
                 int blockSizeCode = (int)(bits & 0x0F);
-                int blockLength = DTOMaker.MemBlocks.StructureCode.GetBlockSize(blockSizeCode);
+                int blockLength = DTOMaker.SrcGen.MemBlocks.StructureCode.GetBlockSize(blockSizeCode);
                 ReadOnlyMemory<byte> block = buffers.Slice(startPosition, blockLength).Compact();
                 startPosition += blockLength;
                 blockSpan[h + 1] = block;

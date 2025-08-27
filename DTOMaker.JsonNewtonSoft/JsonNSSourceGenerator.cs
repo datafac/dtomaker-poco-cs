@@ -1,9 +1,10 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
+using DTOMaker.SrcGen.JsonNewtonSoft;
 using Microsoft.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 
-namespace DTOMaker.JsonNewtonSoft
+namespace DTOMaker.SrcGen.JsonNewtonSoft
 {
     [Generator(LanguageNames.CSharp)]
     public class JsonNSSourceGenerator : SourceGeneratorBase

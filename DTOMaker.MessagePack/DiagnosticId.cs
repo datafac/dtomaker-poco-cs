@@ -1,4 +1,4 @@
-﻿namespace DTOMaker.MessagePack
+﻿namespace DTOMaker.SrcGen.MessagePack
 {
     internal static class DiagnosticId
     {

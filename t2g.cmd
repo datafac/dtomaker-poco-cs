@@ -14,5 +14,5 @@ call :t2g JsonNewtonSoft
 goto :eof
 
 :t2g
-    call %_cli% t2g -s .\Template.%1\EntityTemplate.cs -o .\DTOMaker.%1\EntityGenerator.g.cs -n DTOMaker.%1
+    call %_cli% t2g -s .\Template.%1\EntityTemplate.cs -o .\DTOMaker.%1\EntityGenerator.g.cs -n DTOMaker.SrcGen.%1
     goto :eof

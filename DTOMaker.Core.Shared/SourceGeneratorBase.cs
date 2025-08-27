@@ -3,7 +3,7 @@ using System;
 using System.Collections.Immutable;
 using System.Linq;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
 
     public abstract class SourceGeneratorBase : ISourceGenerator

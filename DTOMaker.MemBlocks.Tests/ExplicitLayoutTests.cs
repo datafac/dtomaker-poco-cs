@@ -11,7 +11,7 @@ namespace DTOMaker.MemBlocks.Tests
 {
     public class AttributeSyncTests
     {
-        private void LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod a, DTOMaker.MemBlocks.LayoutMethod b)
+        private void LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod a, DTOMaker.SrcGen.MemBlocks.LayoutMethod b)
         {
             int aOrdinal = (int)a;
             int bOrdinal = (int)b;
@@ -21,19 +21,19 @@ namespace DTOMaker.MemBlocks.Tests
         [Fact]
         public void LayoutMethodsMatch()
         {
-            LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod.Undefined, DTOMaker.MemBlocks.LayoutMethod.Undefined);
-            LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod.Explicit, DTOMaker.MemBlocks.LayoutMethod.Explicit);
-            LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod.Linear, DTOMaker.MemBlocks.LayoutMethod.Linear);
+            LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod.Undefined, DTOMaker.SrcGen.MemBlocks.LayoutMethod.Undefined);
+            LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod.Explicit, DTOMaker.SrcGen.MemBlocks.LayoutMethod.Explicit);
+            LayoutMethodsAreEquivalent(DTOMaker.Models.MemBlocks.LayoutMethod.Linear, DTOMaker.SrcGen.MemBlocks.LayoutMethod.Linear);
         }
 
         [Fact]
         public void AttributeNamesMatch()
         {
-            nameof(DTOMaker.MemBlocks.LayoutAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.LayoutAttribute));
-            nameof(DTOMaker.MemBlocks.OffsetAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.OffsetAttribute));
-            nameof(DTOMaker.MemBlocks.EndianAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.EndianAttribute));
-            nameof(DTOMaker.MemBlocks.FixedLengthAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.FixedLengthAttribute));
-            nameof(DTOMaker.MemBlocks.CapacityAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.CapacityAttribute));
+            nameof(DTOMaker.SrcGen.MemBlocks.LayoutAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.LayoutAttribute));
+            nameof(DTOMaker.SrcGen.MemBlocks.OffsetAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.OffsetAttribute));
+            nameof(DTOMaker.SrcGen.MemBlocks.EndianAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.EndianAttribute));
+            nameof(DTOMaker.SrcGen.MemBlocks.FixedLengthAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.FixedLengthAttribute));
+            nameof(DTOMaker.SrcGen.MemBlocks.CapacityAttribute).ShouldBe(nameof(DTOMaker.Models.MemBlocks.CapacityAttribute));
         }
     }
     public class ExplicitLayoutTests

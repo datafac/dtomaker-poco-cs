@@ -1,8 +1,8 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Collections.Immutable;
 
-namespace DTOMaker.CSPoco
+namespace DTOMaker.SrcGen.CSPoco
 {
     internal class CSPocoSyntaxReceiver : SyntaxReceiverBase
     {

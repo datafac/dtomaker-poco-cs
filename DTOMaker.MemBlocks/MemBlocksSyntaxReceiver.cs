@@ -1,9 +1,9 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Collections.Immutable;
 using System.Linq;
 
-namespace DTOMaker.MemBlocks
+namespace DTOMaker.SrcGen.MemBlocks
 {
     public readonly struct LayoutAttribute { }
     public readonly struct OffsetAttribute { }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.CodeAnalysis;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
     public sealed class SyntaxDiagnostic
     {

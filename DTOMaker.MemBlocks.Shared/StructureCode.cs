@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DTOMaker.MemBlocks
+namespace DTOMaker.SrcGen.MemBlocks
 {
     internal readonly struct StructureCode
     {

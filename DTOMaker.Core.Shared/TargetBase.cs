@@ -2,7 +2,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
     public abstract class TargetBase
     {

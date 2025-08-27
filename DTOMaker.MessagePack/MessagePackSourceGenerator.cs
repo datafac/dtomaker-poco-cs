@@ -1,9 +1,10 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
+using DTOMaker.SrcGen.MessagePack;
 using Microsoft.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 
-namespace DTOMaker.MessagePack
+namespace DTOMaker.SrcGen.MessagePack
 {
     [Generator(LanguageNames.CSharp)]
     public class MessagePackSourceGenerator : SourceGeneratorBase

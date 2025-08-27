@@ -1,9 +1,9 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Linq;
 using System.Reflection;
 
-namespace DTOMaker.MemBlocks
+namespace DTOMaker.SrcGen.MemBlocks
 {
     [Generator(LanguageNames.CSharp)]
     public class MemBlocksSourceGenerator : SourceGeneratorBase

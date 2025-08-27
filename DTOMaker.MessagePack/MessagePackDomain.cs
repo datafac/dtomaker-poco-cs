@@ -1,8 +1,8 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 using System.Collections.Generic;
 
-namespace DTOMaker.MessagePack
+namespace DTOMaker.SrcGen.MessagePack
 {
     internal sealed class MessagePackDomain : TargetDomain
     {

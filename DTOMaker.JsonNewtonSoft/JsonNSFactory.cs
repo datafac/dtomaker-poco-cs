@@ -1,7 +1,7 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 using Microsoft.CodeAnalysis;
 
-namespace DTOMaker.JsonNewtonSoft
+namespace DTOMaker.SrcGen.JsonNewtonSoft
 {
     internal class JsonNSFactory : ITargetFactory
     {

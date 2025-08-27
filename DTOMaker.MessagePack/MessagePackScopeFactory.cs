@@ -1,6 +1,6 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 
-namespace DTOMaker.MessagePack
+namespace DTOMaker.SrcGen.MessagePack
 {
     internal sealed class MessagePackScopeFactory : IScopeFactory
     {

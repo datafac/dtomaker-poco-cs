@@ -4,7 +4,7 @@ using System.Collections.Immutable;
 using System.Linq;
 using System.Text;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
     public readonly struct TypeFullName : IEquatable<TypeFullName>
     {

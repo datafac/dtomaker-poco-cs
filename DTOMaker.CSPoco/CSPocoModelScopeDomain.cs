@@ -1,6 +1,6 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 
-namespace DTOMaker.CSPoco
+namespace DTOMaker.SrcGen.CSPoco
 {
     public sealed class CSPocoModelScopeDomain : ModelScopeDomain
     {

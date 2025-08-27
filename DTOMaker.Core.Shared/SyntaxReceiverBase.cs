@@ -6,7 +6,7 @@ using System.Collections.Concurrent;
 using System.Collections.Immutable;
 using System.Linq;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
     public interface ITargetFactory
     {

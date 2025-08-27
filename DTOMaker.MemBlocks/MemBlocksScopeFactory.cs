@@ -1,6 +1,6 @@
-﻿using DTOMaker.Gentime;
+﻿using DTOMaker.SrcGen.Core;
 
-namespace DTOMaker.MemBlocks
+namespace DTOMaker.SrcGen.MemBlocks
 {
     internal sealed class MemBlocksScopeFactory : IScopeFactory
     {

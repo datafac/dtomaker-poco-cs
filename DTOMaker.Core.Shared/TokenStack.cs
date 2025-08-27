@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.Immutable;
 
-namespace DTOMaker.Gentime
+namespace DTOMaker.SrcGen.Core
 {
     internal sealed class TokenStack
     {
